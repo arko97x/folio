@@ -18,10 +18,10 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/:name">
+        <Route path="/folio/:name">
           <ComponentRenderer />
         </Route>
-        <Route path="/">
+        <Route path="/folio">
           <Hi />
         </Route>
       </Switch>

@@ -11,7 +11,7 @@ export default () => {
       <Container>
         <ContentWithPaddingXl>
           <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
-            <Link to="/home">
+            <Link to="/folio/home">
               <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
               <span style={{ fontSize: '22px' }}><b>back</b></span>
             </Link>
