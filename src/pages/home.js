@@ -122,15 +122,17 @@ export default ({
           <Posts>
             {personal.slice(0, visible).map((post, index) => (
               <PostContainer key={index} featured={post.featured}>
-                <Post className="group" as="a" href={post.url}>
-                  <Image imageSrc={post.imageSrc} />
-                  <Info>
-                    {/* <Category>{post.category}</Category> */}
-                    <CreationDate>{post.date}</CreationDate>
-                    <Title>{post.title}</Title>
-                    {post.featured && post.description && <Description>{post.description}</Description>}
-                  </Info>
-                </Post>
+                <Link to={post.url}>
+                  <Post className="group" as="a">
+                    <Image imageSrc={post.imageSrc} />
+                    <Info>
+                      {/* <Category>{post.category}</Category> */}
+                      <CreationDate>{post.date}</CreationDate>
+                      <Title>{post.title}</Title>
+                      {post.featured && post.description && <Description>{post.description}</Description>}
+                    </Info>
+                  </Post>
+                </Link>
               </PostContainer>
             ))}
           </Posts>
