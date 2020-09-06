@@ -65,7 +65,7 @@ export default ({
           <span style={{ fontSize: '20px' }}>A <b>designer</b> on a mission to <b>elicit joy</b>. The amalgamation of <b><i>art</i></b>, <b><i>design</i></b>, <b><i>poetry</i></b>, and <b><i>technology</i></b> excites me.</span>
           <Posts>
             <PostContainer featured='true'>
-              <Link to="/folio/about">
+              <Link to="/folio/#/about">
                 <Post className="group" as="a">
                   <Image imageSrc={MyGIF} />
                   <Info>
@@ -172,7 +172,7 @@ const PortfolioRedesign = () => ({
   title: "Portfolio Redesign",
   description:
     "Redesigning, restructuring, & rebuilding my personal portfolio website.",
-  url: "/folio/portfolio_redesign"
+  url: "/folio/#/portfolio_redesign"
 });
 
 const InFlo = () => ({
@@ -182,7 +182,7 @@ const InFlo = () => ({
   title: "InFlo",
   description:
     "Logo exploration and Product Design for a unique networking platform for schools and school kids. Being built by high school kids!",
-  url: "/folio/inflo"
+  url: "/folio/#/inflo"
 });
 
 const ChehakChirps = () => ({
@@ -192,7 +192,7 @@ const ChehakChirps = () => ({
   title: "ChehakChirps",
   description:
     "A logo exploration for a personal blog by Chehak Nayar.",
-  url: "/folio/chehakchirps"
+  url: "/folio/#/chehakchirps"
 });
 
 const WhatsAppLists = () => ({
@@ -202,7 +202,7 @@ const WhatsAppLists = () => ({
   title: "Lists in WhatsApp",
   description:
     "Interactive lists in WhatsApp.",
-  url: "/folio/whatsapp_lists"
+  url: "/folio/#/whatsapp_lists"
 });
 
 const VisualDesign = () => ({
@@ -212,5 +212,5 @@ const VisualDesign = () => ({
   title: "Visual Design",
   description:
     "My explorations in graphic design. Includes posters, stickers, and stand-alone illustrations.",
-  url: "/folio/visual_designs"
+  url: "/folio/#/visual_designs"
 });

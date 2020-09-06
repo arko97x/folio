@@ -26,31 +26,31 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/folio/:name" component={ComponentRenderer} />
+        <Route exact path="/folio/#/:name" component={ComponentRenderer} />
         {/* <ComponentRenderer />
         </Route> */}
-        <Route exact path="/folio" component={Hi} />
+        <Route exact path="/folio/#/" component={Hi} />
         {/* <Hi />
         </Route> */}
-        <Route exact path="/folio/home" component={Home} />
+        <Route exact path="/folio/#/home" component={Home} />
         {/* <Home />
         </Route> */}
-        <Route exact path="/folio/about" component={About} />
+        <Route exact path="/folio/#/about" component={About} />
         {/* <About />
         </Route> */}
-        <Route exact path="/folio/inflo" component={InFlo} />
+        <Route exact path="/folio/#/inflo" component={InFlo} />
         {/* <InFlo />
         </Route> */}
-        <Route exact path="/folio/chehakchirps" component={ChehakChirps} />
+        <Route exact path="/folio/#/chehakchirps" component={ChehakChirps} />
         {/* <ChehakChirps />
         </Route> */}
-        <Route exact path="/folio/portfolio_redesign" component={PortfolioRedesign} />
+        <Route exact path="/folio/#/portfolio_redesign" component={PortfolioRedesign} />
         {/* <PortfolioRedesign />
         </Route> */}
-        <Route exact path="/folio/whatsapp_lists" component={WhatsappLists} />
+        <Route exact path="/folio/#/whatsapp_lists" component={WhatsappLists} />
         {/* <WhatsappLists />
         </Route> */}
-        <Route exact path="/folio/visual_designs" component={VisualDesigns} />
+        <Route exact path="/folio/#/visual_designs" component={VisualDesigns} />
         {/* <VisualDesigns />
         </Route> */}
       </Switch>

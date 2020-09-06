@@ -16,7 +16,7 @@ export default () => {
             <Container>
                 <ContentWithPaddingXl>
                     <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
-                        <Link to="/folio/home">
+                        <Link to="/folio/#/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
                             <span style={{ fontSize: '22px' }}><b>back</b></span>
                         </Link>
@@ -107,7 +107,7 @@ export default () => {
                         their websites. In essence, I was trying to understand their Information Architectures
                         and hopefully find a pattern that I could replicate. Aesthetics wasn't something that I was
                         focussing on, yet.<br /> <br />
-                        After quite a bit of 'stalking' on the internet, specifically, a [brilliant] curated list by <a href="https://brianlovin.com/overthought/product-design-portfolioshttps://www.linkedin.com/in/naveenaidu/"
+                        After quite a bit of 'stalking' on the internet, specifically, a [brilliant] curated list by <a href="https://brianlovin.com/overthought/product-design-portfolios"
                             target="_blank" style={{ textDecoration: "underline", fontWeight: "bold" }} rel="noopener noreferrer">Brian Lovin</a> that
                         I found thanks to <a href="https://hvpandya.com/" target="_blank" style={{ textDecoration: "underline", fontWeight: "bold" }} rel="noopener noreferrer">Hardik Pandya</a>,
                         I was able to identify the following.
