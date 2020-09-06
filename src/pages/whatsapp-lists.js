@@ -183,7 +183,14 @@ export default () => {
                             introduce it to their customer base as a means
                             to simplify the ordering process from their business/shop.
                         </li>
-                    </span> <br /><br />
+                    </span>
+                    <br /><br /><br /><hr /><br />
+                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", bottom: "0", width: "100%" }}>
+                        <Link to="/home">
+                            <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
+              <span style={{ fontSize: '22px' }}><b>back</b></span>
+                        </Link>
+                    </div>
                 </ContentWithPaddingXl>
             </Container>
         </AnimationRevealPage>

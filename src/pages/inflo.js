@@ -11,7 +11,7 @@ export default () => {
     return (
         <AnimationRevealPage>
             <Container>
-                <ContentWithPaddingXl>
+                <ContentWithPaddingXl style={{ fontSize: '20px', textAlign: 'justify' }}>
                     <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
@@ -72,6 +72,13 @@ export default () => {
                     </span>
                     <br /><br />
                     <img src={InFloRefined} style={{ width: "100%", borderRadius: '0.75rem', border: '1px solid' }} />
+                    <br /><br /><br /><hr /><br />
+                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", bottom: "0", width: "100%" }}>
+                        <Link to="/home">
+                            <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
+              <span style={{ fontSize: '22px' }}><b>back</b></span>
+                        </Link>
+                    </div>
                 </ContentWithPaddingXl>
             </Container>
         </AnimationRevealPage>

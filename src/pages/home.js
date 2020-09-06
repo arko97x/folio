@@ -60,7 +60,7 @@ export default ({
   return (
     <AnimationRevealPage>
       <Container>
-        <ContentWithPaddingXl>
+        <ContentWithPaddingXl style={{ textAlign: "justify" }}>
           <span style={{ fontSize: '35px' }}>Hey, <b>Arko</b> here! 👋</span> <br /> <br />
           <span style={{ fontSize: '20px' }}>A <b>designer</b> on a mission to <b>elicit joy</b>. The amalgamation of <b><i>art</i></b>, <b><i>design</i></b>, <b><i>poetry</i></b>, and <b><i>technology</i></b> excites me.</span>
           <Posts>
@@ -71,7 +71,7 @@ export default ({
                   <Info>
                     <Title>More about me</Title>
                     <Description>
-                      Based out of 📍 <b>Bangalore, India</b>, I'm currently engaged in levelling up
+                      Based out of 📍<b>Bangalore, India</b>, I'm currently engaged in levelling up
                     my design know-how! <br /> <b><i>I'm also on the lookout for Designer openings, so hit me up!</i></b>
                       <br /><br />
                     Until recently (June, 2020), I was a Software Engineer at <a href="http://squadcast.com/" target="_blank" rel="noopener noreferrer">Squadcast</a>.

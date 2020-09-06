@@ -63,7 +63,7 @@ export default () => {
                     <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
                         PROBLEMS
                     </span> <br /> <br />
-                    <span style={{ fontSize: '20px' }}>
+                    <span style={{ fontSize: '20px', textAlign: 'left' }}>
                         <li>
                             Lack of a <b>"Home"</b> section/page.
                             This forced me to use the <b>"About"</b> page as the landing page for my website.
@@ -154,7 +154,14 @@ export default () => {
                             Adding an element of (hopefully) pleasant surprise by way of a
                             deliberate interaction for all new visitors that land on my site.
                         </li>
-                    </span> <br /><br />
+                    </span>
+                    <br /><br /><br /><hr /><br />
+                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", bottom: "0", width: "100%" }}>
+                        <Link to="/home">
+                            <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
+              <span style={{ fontSize: '22px' }}><b>back</b></span>
+                        </Link>
+                    </div>
                 </ContentWithPaddingXl>
             </Container>
         </AnimationRevealPage >

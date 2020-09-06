@@ -14,7 +14,7 @@ export default () => {
     return (
         <AnimationRevealPage>
             <Container>
-                <ContentWithPaddingXl>
+                <ContentWithPaddingXl style={{ textAlign: "justify" }}>
                     <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
@@ -90,6 +90,13 @@ export default () => {
                     <br /><br />
                     <img src={ChehakChirpsRefined4} style={{ width: "100%", borderRadius: '0.75rem' }} />
                     <span style={{ fontSize: '14px' }}>a pattern that can find use in branding campaigns</span>
+                    <br /><br /><br /><hr /><br />
+                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", bottom: "0", width: "100%" }}>
+                        <Link to="/home">
+                            <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
+              <span style={{ fontSize: '22px' }}><b>back</b></span>
+                        </Link>
+                    </div>
                 </ContentWithPaddingXl>
             </Container>
         </AnimationRevealPage>

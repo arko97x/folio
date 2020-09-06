@@ -9,7 +9,7 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Container>
-        <ContentWithPaddingXl>
+        <ContentWithPaddingXl style={{ textAlign: "justify" }}>
           <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
             <Link to="/home">
               <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
@@ -40,7 +40,14 @@ export default () => {
           <br /><br />
           <span style={{ fontSize: '20px' }}><a href="https://www.dropbox.com/s/r5h15lwyuvapg1p/June-2020-arko.pdf?dl=0" style={{ textDecoration: "underline", fontWeight: "bold" }} target="_blank" rel="noopener noreferrer">Résumé</a></span>
           &nbsp;&nbsp;|&nbsp;&nbsp;
-          <span style={{ fontSize: '20px' }}>Email: bhattacharjee.arkoprabho@gmail.com</span>
+          <span style={{ fontSize: '20px' }}><a href="mailto:bhattacharjee.arkoprabho@gmail.com" style={{ textDecoration: "underline", fontWeight: "bold" }}>Email</a></span>
+          <br /><br /><br /><hr /><br />
+          <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", bottom: "0", width: "100%" }}>
+            <Link to="/home">
+              <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
+              <span style={{ fontSize: '22px' }}><b>back</b></span>
+            </Link>
+          </div>
         </ContentWithPaddingXl>
       </Container>
     </AnimationRevealPage>
