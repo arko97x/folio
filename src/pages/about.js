@@ -38,7 +38,7 @@ export default () => {
           </span> <br /><br /><br />
           <hr />
           <br /><br />
-          <span style={{ fontSize: '20px' }}><a href="https://www.dropbox.com/s/r5h15lwyuvapg1p/June-2020-arko.pdf?dl=0" style={{ textDecoration: "underline", fontWeight: "bold" }} target="_blank" rel="noopener noreferrer">Résumé</a></span>
+          <span style={{ fontSize: '20px' }}><a href="https://www.dropbox.com/s/5og87z89eo2unif/Sept-2020-arko-resume.pdf?dl=0" style={{ textDecoration: "underline", fontWeight: "bold" }} target="_blank" rel="noopener noreferrer">Résumé</a></span>
           &nbsp;&nbsp;|&nbsp;&nbsp;
           <span style={{ fontSize: '20px' }}><a href="mailto:bhattacharjee.arkoprabho@gmail.com" style={{ textDecoration: "underline", fontWeight: "bold" }}>Email</a></span>
           <br /><br /><br /><hr /><br />
