@@ -26,10 +26,10 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/folio/:name" render={() => <ComponentRenderer />}>
+        <Route exact path="/:name" render={() => <ComponentRenderer />}>
           {/* <ComponentRenderer /> */}
         </Route>
-        <Route exact path="/folio" render={() => <Hi />}>
+        <Route exact path="/" render={() => <Hi />}>
           {/* <Hi /> */}
         </Route>
         {/* <Route exact path="/folio/home">

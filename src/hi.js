@@ -65,7 +65,7 @@ class Hi extends React.Component {
                                 scale: 0.97,
                             }}
                         >
-                            {this.state.CurrentButton === ButtonText[2] ? <Link to="/folio/home" >
+                            {this.state.CurrentButton === ButtonText[2] ? <Link to="/home" >
                                 <Button
                                     variant='outlined'
                                     style={{
@@ -117,7 +117,7 @@ class Hi extends React.Component {
                         </motion.div>
                         <br />
                         {this.state.CurrentButton !== ButtonText[2] && <div style={{ textAlign: 'center' }}>
-                            <Link to="/folio/home">SKIP</Link>
+                            <Link to="/home">SKIP</Link>
                         </div>
                         }
                     </ContentWithPaddingXl>
