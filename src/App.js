@@ -29,9 +29,9 @@ export default function App() {
         <Route exact path="/folio/#/:name" component={ComponentRenderer} />
         {/* <ComponentRenderer />
         </Route> */}
-        <Route exact path="/folio/#/" component={Hi} />
-        {/* <Hi />
-        </Route> */}
+        <Route exact path="/folio/#/">
+          <Hi />
+        </Route>
         <Route exact path="/folio/#/home" component={Home} />
         {/* <Home />
         </Route> */}
