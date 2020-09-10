@@ -14,19 +14,19 @@ export default () => {
     return (
         <AnimationRevealPage>
             <Container>
-                <ContentWithPaddingXl style={{ textAlign: "justify" }}>
-                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
+                <ContentWithPaddingXl style={{ color: "#B9B8B8" }}>
+                    <div style={{ backgroundColor: "#121212", color: "#1976D2", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
                             <span style={{ fontSize: '22px' }}><b>back</b></span>
                         </Link>
                     </div>
                     <br /><br />
-                    <span style={{ fontSize: '35px', fontWeight: 'bold' }}>ChehakChirps</span>
-                    <br /><span style={{ fontSize: '20px', fontWeight: 'lighter', }}>Logo • Branding</span>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>ChehakChirps</span>
+                    <br /><span style={{ fontSize: '20px', fontWeight: '350' }}>Logo • Branding</span>
                     <br /> <br />
                     <img src={ThumbnailChehakChirps} style={{ width: "100%", borderRadius: '0.0rem' }} /> <br /><br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         OVERVIEW
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -44,9 +44,9 @@ export default () => {
 
                     </span>
                     <br /><br />
-                    <hr />
+                    <hr style={{ borderColor: "#707070" }} />
                     <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         IDEATION & INITIAL SKETCHES
                     </span> <br /> <br />
                     <img src={ChehakChirpsIdeation} style={{ width: "100%", borderRadius: '0.75rem' }} />
@@ -63,9 +63,9 @@ export default () => {
                         The idea was to somehow embed the 2 <b>C</b>s from ChehakChirps into the logomark.
                     </span>
                     <br /><br />
-                    <hr />
+                    <hr style={{ borderColor: "#707070" }} />
                     <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         REFINEMENT
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -90,11 +90,11 @@ export default () => {
                     <br /><br />
                     <img src={ChehakChirpsRefined4} style={{ width: "100%", borderRadius: '0.75rem' }} />
                     <span style={{ fontSize: '14px' }}>a pattern that can find use in branding campaigns</span>
-                    <br /><br /><br /><hr /><br />
-                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", bottom: "0", width: "100%" }}>
+                    <br /><br /><br /><hr style={{ borderColor: "#707070" }} /><br />
+                    <div style={{ backgroundColor: "#121212", color: "#1976D2", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
-              <span style={{ fontSize: '22px' }}><b>back</b></span>
+                            <span style={{ fontSize: '22px' }}><b>back</b></span>
                         </Link>
                     </div>
                 </ContentWithPaddingXl>

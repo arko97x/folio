@@ -14,19 +14,19 @@ export default () => {
     return (
         <AnimationRevealPage>
             <Container>
-                <ContentWithPaddingXl>
-                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
+                <ContentWithPaddingXl style={{ color: "#B9B8B8" }}>
+                    <div style={{ backgroundColor: "#121212", color: "#1976D2", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
                             <span style={{ fontSize: '22px' }}><b>back</b></span>
                         </Link>
                     </div>
                     <br /><br />
-                    <span style={{ fontSize: '35px', fontWeight: 'bold' }}>Portfolio Redesign</span>
-                    <br /><span style={{ fontSize: '20px', fontWeight: 'lighter', }}>Responsive Web Design</span>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>Portfolio Redesign</span>
+                    <br /><span style={{ fontSize: '20px', fontWeight: '350' }}>Responsive Web Design</span>
                     <br /> <br />
                     <img src={ThumbnailPortfolio} style={{ width: "100%", borderRadius: '0.0rem' }} /> <br /><br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         CASE STUDY STRUCTURE
                     </span> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -38,8 +38,8 @@ export default () => {
                         Impact
                     </span>
                     <br /><br />
-                    <hr /> <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <hr style={{ borderColor: "#707070" }} /> <br />
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         OVERVIEW
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -48,9 +48,9 @@ export default () => {
                         about a week and a half to design and build the whole website.
                     </span>
                     <br /><br />
-                    <hr />
+                    <hr style={{ borderColor: "#707070" }} />
                     <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         DELIVERABLES
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -58,9 +58,9 @@ export default () => {
                         and my life's story so far.
                     </span>
                     <br /><br />
-                    <hr />
+                    <hr style={{ borderColor: "#707070" }} />
                     <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         PROBLEMS
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px', textAlign: 'left' }}>
@@ -71,7 +71,7 @@ export default () => {
                             what I actually do. Lack of visual hierarchy fails to pack a punch!
                         </li>
                     </span> <br />
-                    <img src={Folio1} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <img src={Folio1} style={{ width: "100%", borderRadius: '0.75rem', border: "0.1px solid #f8f8f8" }} />
                     <br /> <br />
                     <span style={{ fontSize: '20px' }}>
                         <li>
@@ -85,11 +85,11 @@ export default () => {
                             website, instead of re-directing them to IG/dribbble.
                         </li>
                     </span> <br />
-                    <img src={Folio2} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <img src={Folio2} style={{ width: "100%", borderRadius: '0.75rem', border: "0.1px solid #f8f8f8" }} />
                     <br /><br />
-                    <hr />
+                    <hr style={{ borderColor: "#707070" }} />
                     <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         GOALS
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -98,8 +98,8 @@ export default () => {
                         <li>I am also trying to land a design job. I want this website to be the conversation starter.</li>
                     </span>
                     <br /><br />
-                    <hr /> <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <hr style={{ borderColor: "#707070" }} /> <br />
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         RESEARCH
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -107,16 +107,16 @@ export default () => {
                         their websites. In essence, I was trying to understand their Information Architectures
                         and hopefully find a pattern that I could replicate. Aesthetics wasn't something that I was
                         focussing on, yet.<br /> <br />
-                        After quite a bit of 'stalking' on the internet, specifically, a [brilliant] curated list by <a href="https://brianlovin.com/overthought/product-design-portfolios"
+                        This phase involved quite a bit of 'stalking' on the internet, specifically, a [brilliant] curated list by <a href="https://brianlovin.com/overthought/product-design-portfolios"
                             target="_blank" style={{ textDecoration: "underline", fontWeight: "bold" }} rel="noopener noreferrer">Brian Lovin</a> that
-                        I found thanks to <a href="https://hvpandya.com/" target="_blank" style={{ textDecoration: "underline", fontWeight: "bold" }} rel="noopener noreferrer">Hardik Pandya</a>,
-                        I was able to identify the following.
+                        I found thanks to <a href="https://hvpandya.com/" target="_blank" style={{ textDecoration: "underline", fontWeight: "bold" }} rel="noopener noreferrer">Hardik Pandya</a>.
+                        Since I'm only getting started in the field of professional design, I don't have too many actual projects to
+                        showcase. As a result, the goal of this phase was also to get an idea of the kind of work (personal projects/
+                        real world work) that other designers are displaying on their portfolios.
                     </span>
-                    <br /> <br />
-                    <img src={Folio3} style={{ width: "100%", borderRadius: '0.75rem' }} />
                     <br /><br />
-                    <hr /> <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <hr style={{ borderColor: "#707070" }} /> <br />
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         THE REDESIGN
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -124,6 +124,10 @@ export default () => {
                         that I was heading towards a layout that would allow me to present the most
                         relevant content, in the most apt way possible.
                     </span> <br /><br />
+                    <img src={Folio3} style={{ width: "100%", borderRadius: '0.75rem', border: "0.5px solid #F8F8F8" }} />
+                    <br /><br />
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>V1</span>
+                    <br /><br />
                     <img src={Folio4} style={{ width: "100%", borderRadius: '0.75rem', border: '1px solid' }} />
                     <br /><br />
                     <span style={{ fontSize: '20px' }}>
@@ -132,8 +136,8 @@ export default () => {
                     </span> <br /><br />
                     <img src={Folio5} style={{ width: "100%", borderRadius: '0.75rem', border: '1px solid' }} />
                     <br /><br />
-                    <hr /> <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <hr style={{ borderColor: "#707070" }} /> <br />
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         IMPACT
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -155,11 +159,11 @@ export default () => {
                             deliberate interaction for all new visitors that land on my site.
                         </li>
                     </span>
-                    <br /><br /><br /><hr /><br />
-                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", bottom: "0", width: "100%" }}>
+                    <br /><br /><br /><hr style={{ borderColor: "#707070" }} /><br />
+                    <div style={{ backgroundColor: "#121212", color: "#1976D2", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
-              <span style={{ fontSize: '22px' }}><b>back</b></span>
+                            <span style={{ fontSize: '22px' }}><b>back</b></span>
                         </Link>
                     </div>
                 </ContentWithPaddingXl>

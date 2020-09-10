@@ -11,19 +11,19 @@ export default () => {
     return (
         <AnimationRevealPage>
             <Container>
-                <ContentWithPaddingXl style={{ fontSize: '20px', textAlign: 'justify' }}>
-                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
+                <ContentWithPaddingXl style={{ color: "#B9B8B8" }}>
+                    <div style={{ backgroundColor: "#121212", color: "#1976D2", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
                             <span style={{ fontSize: '22px' }}><b>back</b></span>
                         </Link>
                     </div>
                     <br /><br />
-                    <span style={{ fontSize: '35px', fontWeight: 'bold' }}>InFlo</span>
-                    <br /><span style={{ fontSize: '20px', fontWeight: 'lighter', }}>Logo • Product Design</span>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>InFlo</span>
+                    <br /><span style={{ fontSize: '20px', fontWeight: '350' }}>Logo • Product Design</span>
                     <br /> <br />
                     <img src={ThumbnailInFlo} style={{ width: "100%", borderRadius: '0.0rem' }} /> <br /><br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         OVERVIEW
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -35,9 +35,9 @@ export default () => {
                         the App/Play Stores. However, I'll take you through the logo design process.
                     </span>
                     <br /><br />
-                    <hr />
+                    <hr style={{ borderColor: "#707070" }} />
                     <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         IDEATION & INITIAL SKETCHES
                     </span> <br /> <br />
                     <img src={InFloIdeation} style={{ width: "100%", borderRadius: '0.75rem' }} />
@@ -57,9 +57,9 @@ export default () => {
                         the rest of the team were on the same page, w.r.t this.
                     </span>
                     <br /><br />
-                    <hr />
+                    <hr style={{ borderColor: "#707070" }} />
                     <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         REFINEMENT
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -72,11 +72,11 @@ export default () => {
                     </span>
                     <br /><br />
                     <img src={InFloRefined} style={{ width: "100%", borderRadius: '0.75rem', border: '1px solid' }} />
-                    <br /><br /><br /><hr /><br />
-                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", bottom: "0", width: "100%" }}>
+                    <br /><br /><br /><hr style={{ borderColor: "#707070" }} /><br />
+                    <div style={{ backgroundColor: "#121212", color: "#1976D2", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
-              <span style={{ fontSize: '22px' }}><b>back</b></span>
+                            <span style={{ fontSize: '22px' }}><b>back</b></span>
                         </Link>
                     </div>
                 </ContentWithPaddingXl>

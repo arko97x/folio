@@ -16,13 +16,13 @@ const Posts = tw.div`mt-6 sm:-mr-8 flex flex-wrap`;
 const PostContainer = styled.div`
   ${tw`mt-10 w-full sm:w-1/2 lg:w-1/3 sm:pr-8`}
 `;
-const Post = tw.div`cursor-pointer flex flex-col bg-gray-100 rounded-lg`;
+const Post = tw.div`cursor-pointer flex flex-col rounded-lg`;
 const Image = styled.div`
   ${props => css`background-image: url("${props.imageSrc}");`}
   ${tw`h-64 w-full bg-cover bg-center rounded-t-lg group-hover:cursor-default`}
 `;
-const Info = tw.div`p-8 border-2 border-t-0 rounded-lg rounded-t-none group-hover:cursor-default`;
-const Title = tw.div`mt-1 font-black text-2xl text-gray-900 group-hover:text-secondary-500 transition duration-300 cursor-default`;
+const Info = tw.div`p-8 bg-new-CardBG text-new-PrimHeading border-2 border-t-0 rounded-lg rounded-t-none group-hover:cursor-default`;
+const Title = tw.div`mt-1 font-black text-2xl text-white group-hover:text-white transition duration-300 cursor-default`;
 
 const DisplayText = ['knock knock', 'you', 'yoohooo  :D']
 const ButtonText = ['WHO\'S THERE? ✊', 'YOU WHO? 👁', 'WELCOME! 👋']
@@ -44,15 +44,13 @@ class Hi extends React.Component {
         return (
             <AnimationRevealPage disabled={true}>
                 <Container>
-                    <ContentWithPaddingXl>
-                        <div style={{ textAlign: 'center' }}>
-                            <span><b>{this.state.CurrentCount}</b> of 3</span>
-                        </div>
-                        <Posts>
+                    <ContentWithPaddingXl style={{ color: "#ffffff" }}>
+                        <br />
+                        <Posts style={{ backgroundClip: "content-box" }}>
                             <PostContainer style={{ margin: 'auto', display: 'block' }}>
-                                <Post className="group" as="a">
+                                <Post className="group" as="a" style={{ border: "0.1px solid #f8f8f8" }}>
                                     <Image imageSrc={this.state.CurrentGIF} />
-                                    <Info>
+                                    <Info style={{ border: "none" }}>
                                         <Title style={{ textAlign: 'center' }}>{this.state.CurrentDisplay}</Title>
                                     </Info>
                                 </Post>
@@ -60,7 +58,7 @@ class Hi extends React.Component {
                         </Posts>
                         <br />
                         <motion.div
-                            whileHover={{ scale: 1.01 }}
+                            whileHover={{ scale: 1.009 }}
                             whileTap={{
                                 scale: 0.97,
                             }}
@@ -69,12 +67,11 @@ class Hi extends React.Component {
                                 <Button
                                     variant='outlined'
                                     style={{
-                                        color: '#243E63',
-                                        backgroundColor: 'white',
-                                        borderColor: '#243E63',
+                                        color: "#ffffff",
+                                        borderColor: "#ffffff",
                                         fontWeight: `700`,
                                         width: `${tw`w-full`}`,
-                                        padding: '10px 90px 10px 90px',
+                                        padding: '10px 93px 10px 93px',
                                         margin: 'auto',
                                         display: 'block'
                                     }}
@@ -93,12 +90,11 @@ class Hi extends React.Component {
                                 : <Button
                                     variant='outlined'
                                     style={{
-                                        color: '#243E63',
-                                        backgroundColor: 'white',
-                                        borderColor: '#243E63',
+                                        color: "#ffffff",
+                                        borderColor: "#ffffff",
                                         fontWeight: `700`,
                                         width: `${tw`w-full`}`,
-                                        padding: '10px 90px 10px 90px',
+                                        padding: '10px 93px 10px 93px',
                                         margin: 'auto',
                                         display: 'block'
                                     }}
@@ -116,9 +112,13 @@ class Hi extends React.Component {
                             }
                         </motion.div>
                         <br />
-                        {this.state.CurrentButton !== ButtonText[2] && <div style={{ textAlign: 'center' }}>
-                            <Link to="/home">SKIP</Link>
-                        </div>
+                        {this.state.CurrentCount && this.state.CurrentButton !== ButtonText[2] ?
+                            <div style={{ textAlign: 'center' }}>
+                                <b>{this.state.CurrentCount}</b> of 3&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<Link to="/home"><span style={{ color: "#1976D2" }}>SKIP</span></Link>
+                            </div> :
+                            <div style={{ textAlign: 'center' }}>
+                                <b>{this.state.CurrentCount}</b> of 3
+                            </div>
                         }
                     </ContentWithPaddingXl>
                 </Container>

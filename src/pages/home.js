@@ -39,10 +39,10 @@ const Image = styled.div`
   ${props => css`background-image: url("${props.imageSrc}");`}
   ${tw`h-64 w-full bg-cover bg-center rounded-t-lg`}
 `;
-const Info = tw.div`p-8 border-2 border-t-0 rounded-lg rounded-t-none`;
+const Info = tw.div`p-8 border-2 border-t-0 bg-new-CardBG text-new-PrimHeading rounded-lg rounded-t-none`;
 const Category = tw.div`uppercase text-primary-500 text-xs font-bold tracking-widest leading-loose after:content after:block after:border-b-2 after:border-primary-500 after:w-8`;
-const CreationDate = tw.div`mt-4 uppercase text-gray-600 italic font-semibold text-xs`;
-const Title = tw.div`mt-1 font-black text-2xl text-gray-900 group-hover:text-primary-500 transition duration-300`;
+const CreationDate = tw.div`mt-4 uppercase text-new-PrimBody italic font-semibold text-xs`;
+const Title = tw.div`mt-1 font-black text-2xl text-new-PrimHeading`;
 const Description = tw.div``;
 
 export default ({
@@ -60,10 +60,23 @@ export default ({
   return (
     <AnimationRevealPage>
       <Container>
-        <ContentWithPaddingXl style={{ textAlign: "justify" }}>
-          <span style={{ fontSize: '35px' }}>Hey, <b>Arko</b> here! 👋</span> <br /> <br />
-          <span style={{ fontSize: '20px' }}>A <b>designer</b> on a mission to <b>elicit joy</b>. The amalgamation of <b><i>art</i></b>, <b><i>design</i></b>, <b><i>poetry</i></b>, and <b><i>technology</i></b> excites me.</span>
-          <Posts>
+        <ContentWithPaddingXl style={{ color: "#F8F8F8" }}>
+          <span style={{ fontSize: '40px', fontWeight: "900" }}>Hi, Arko here.</span> <br />
+          <span style={{ fontSize: '25px', fontWeight: "350", color: "#B9B8B8" }}>
+            Welcome to my online residence! 👋 <br />I’m a designer based out of Bangalore, India and
+            I yearn to be the storm of calmness in an ocean of chaos.
+            Until recently, I was a Software Engineer with Squadcast. <br />
+          </span><br />
+          <span style={{ fontSize: '25px', fontWeight: "bold" }}>
+            <Link to="/about" style={{ color: "#1976D2" }}>
+              More about me&nbsp;
+              <FontAwesomeIcon icon={["fas", "arrow-right"]} size="sm" />
+            </Link>
+            <br />
+          </span> <br /><br />
+          <Image imageSrc={MyGIF} style={{ borderRadius: "7px", height: "450px" }} />
+          <span style={{ fontSize: '14px', color: "#B9B8B8" }}>That's my Voxel self, chilling with a cup of coffee<br /></span>
+          {/* <Posts>
             <PostContainer featured='true'>
               <Link to="/about">
                 <Post className="group" as="a">
@@ -71,32 +84,31 @@ export default ({
                   <Info>
                     <Title>More about me</Title>
                     <Description>
-                      Based out of 📍<b>Bangalore, India</b>, I'm currently engaged in levelling up
-                    my design know-how! <br /> <b><i>I'm also on the lookout for Designer openings, so hit me up!</i></b>
+                      I'm a designer on a mission to elicit joy. The amalgamation of art, design,
+                      poetry & tech excites me. I'm currently engaged in levelling up
+                      my design know-how! <br /> <b><i>I'm also on the lookout for Designer openings, so hit me up!</i></b>
                       <br /><br />
-                    Until recently (June, 2020), I was a Software Engineer at <a href="http://squadcast.com/" target="_blank" rel="noopener noreferrer">Squadcast</a>.
-                    <br /><br /> Click to read my story.
-                  </Description>
+                    </Description>
                   </Info>
                 </Post>
               </Link>
             </PostContainer>
-          </Posts>
+          </Posts> */}
           <br /><br />
-          <hr />
+          <hr style={{ borderColor: "#707070" }} />
           <br />
-          <span style={{ fontSize: '35px', fontWeight: 'bold' }}>Client Projects 🛠</span>
+          <span style={{ fontSize: '40px', fontWeight: "700" }}>🛠 Client Projects</span>
           <br /> <br />
-          <span style={{ fontSize: '20px' }}>
+          <span style={{ fontSize: '25px', fontWeight: "350", color: "#B9B8B8" }}>
             In this section, I present some work that I've done for actual people. Looking forward to add to this list!
           </span>
           <Posts>
             {client.slice(0, visible).map((post, index) => (
               <PostContainer key={index} featured={post.featured}>
                 <Link to={post.url}>
-                  <Post className="group" as="a">
+                  <Post className="group" as="a" style={{ border: "0.1px solid #f8f8f8" }}>
                     <Image imageSrc={post.imageSrc} />
-                    <Info>
+                    <Info style={{ border: "none" }}>
                       {/* <Category>{post.category}</Category> */}
                       <CreationDate>{post.date}</CreationDate>
                       <Title>{post.title}</Title>
@@ -108,11 +120,11 @@ export default ({
             ))}
           </Posts>
           <br /><br />
-          <hr />
+          <hr style={{ borderColor: "#707070" }} />
           <br />
-          <span style={{ fontSize: '35px', fontWeight: 'bold' }}>Personal Projects 👨‍🍳</span>
+          <span style={{ fontSize: '40px', fontWeight: "700" }}>👨‍🍳 Personal Projects</span>
           <br /> <br />
-          <span style={{ fontSize: '20px' }}>
+          <span style={{ fontSize: '25px', fontWeight: "350", color: "#B9B8B8" }}>
             Here, I present work that I've done in an attempt to exercise and exhibit my
             problem solving process, product thinking, & design skills.
             Projects include Case Studies of existing apps (where I identify areas of improvement
@@ -123,9 +135,9 @@ export default ({
             {personal.slice(0, visible).map((post, index) => (
               <PostContainer key={index} featured={post.featured}>
                 <Link to={post.url}>
-                  <Post className="group" as="a">
+                  <Post className="group" as="a" style={{ border: "0.1px solid #f8f8f8" }}>
                     <Image imageSrc={post.imageSrc} />
-                    <Info>
+                    <Info style={{ border: "none" }}>
                       {/* <Category>{post.category}</Category> */}
                       <CreationDate>{post.date}</CreationDate>
                       <Title>{post.title}</Title>
@@ -137,26 +149,26 @@ export default ({
             ))}
           </Posts>
           <br /><br />
-          <hr />
+          <hr style={{ borderColor: "#707070" }} />
           <br />
-          <span style={{ fontSize: '35px', fontWeight: 'bold' }}>Get in touch 🤙</span>
+          <span style={{ fontSize: '40px', fontWeight: "700" }}>🤙 Get in touch</span>
           <br /> <br />
-          <span style={{ fontSize: '20px' }}>
+          <span style={{ fontSize: '25px', fontWeight: "350", color: "#B9B8B8" }}>
             While this is my official, online residence,
             elsewhere on the internet, I can be found holidaying
             on the following platforms from time to time.
           </span>
           <br /><br />
-          <a href="https://twitter.com/ArkoprabhoB" target="_blank" rel="noopener noreferrer">
+          <a href="https://twitter.com/ArkoprabhoB" target="_blank" rel="noopener noreferrer" style={{ color: "#1976D2" }}>
             <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
           </a> &nbsp; &nbsp;
-          <a href="https://www.linkedin.com/in/arkoprabho-bhattacharjee/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/arkoprabho-bhattacharjee/" target="_blank" rel="noopener noreferrer" style={{ color: "#1976D2" }}>
             <FontAwesomeIcon icon={["fab", "linkedin-in"]} size="lg" />
           </a> &nbsp; &nbsp;
-          <a href="https://dribbble.com/arko97x" target="_blank" rel="noopener noreferrer">
+          <a href="https://dribbble.com/arko97x" target="_blank" rel="noopener noreferrer" style={{ color: "#1976D2" }}>
             <FontAwesomeIcon icon={["fab", "dribbble"]} size="lg" />
           </a> &nbsp; &nbsp;
-          <a href="https://www.instagram.com/thepngguyy/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/thepngguyy/" target="_blank" rel="noopener noreferrer" style={{ color: "#1976D2" }}>
             <FontAwesomeIcon icon={["fab", "instagram"]} size="lg" />
           </a>
         </ContentWithPaddingXl>

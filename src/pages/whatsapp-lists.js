@@ -17,19 +17,19 @@ export default () => {
     return (
         <AnimationRevealPage>
             <Container>
-                <ContentWithPaddingXl>
-                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
+                <ContentWithPaddingXl style={{ color: "#B9B8B8" }}>
+                    <div style={{ backgroundColor: "#121212", color: "#1976D2", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
                             <span style={{ fontSize: '22px' }}><b>back</b></span>
                         </Link>
                     </div>
                     <br /><br />
-                    <span style={{ fontSize: '35px', fontWeight: 'bold' }}>Interactive Lists in WhatsApp</span>
-                    <br /><span style={{ fontSize: '20px', fontWeight: 'lighter', }}>Product Design</span>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>Interactive Lists in WhatsApp</span>
+                    <br /><span style={{ fontSize: '20px', fontWeight: '350', }}>Product Design</span>
                     <br /> <br />
                     <img src={ThumbnailWhatsAppLists} style={{ width: "100%", borderRadius: '0.0rem' }} /> <br /><br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         CASE STUDY STRUCTURE
                     </span> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -40,8 +40,8 @@ export default () => {
                         Impact
                     </span>
                     <br /><br />
-                    <hr /> <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <hr style={{ borderColor: "#707070" }} /> <br />
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         OVERVIEW
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -56,9 +56,9 @@ export default () => {
                         interactions in the app.
                     </span>
                     <br /><br />
-                    <hr />
+                    <hr style={{ borderColor: "#707070" }} />
                     <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         PROBLEMS
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -68,7 +68,7 @@ export default () => {
                             list using bullet points (or some similar method).
                         </li>
                     </span> <br />
-                    <img src={wa1} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <img src={wa1} style={{ width: "100%", borderRadius: '0.75rem', border: "0.1px solid #f8f8f8" }} />
                     <br /> <br />
                     <span style={{ fontSize: '20px' }}>
                         <li>
@@ -80,7 +80,7 @@ export default () => {
                             Notice how they’re scattered all over the place.
                         </li>
                     </span> <br />
-                    <img src={wa2} style={{ width: "100%", borderRadius: '0.75rem', border: "0.5px solid" }} />
+                    <img src={wa2} style={{ width: "100%", borderRadius: '0.75rem', border: "0.1px solid #f8f8f8" }} />
                     <br /><br />
                     <span style={{ fontSize: '30px', fontWeight: 'bold' }}>
                         There is no way for you to strike out items that you’ve already added
@@ -98,9 +98,9 @@ export default () => {
                         </li>
                         <br />
                     </span>
-                    <hr />
+                    <hr style={{ borderColor: "#707070" }} />
                     <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         GOALS
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -108,8 +108,8 @@ export default () => {
                         <li>Ensure visibility & easy accessibily of the feature.</li>
                     </span>
                     <br />
-                    <hr /> <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <hr style={{ borderColor: "#707070" }} /> <br />
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         RESEARCH
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -125,10 +125,10 @@ export default () => {
                         location"</b> could closely resemble that of creating and sharing lists.
                     </span>
                     <br /> <br />
-                    <img src={wa3} style={{ width: "100%", borderRadius: '0.75rem', border: "0.5px solid" }} />
+                    <img src={wa3} style={{ width: "100%", borderRadius: '0.75rem', border: "0.1px solid #f8f8f8" }} />
                     <br /><br />
-                    <hr /> <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <hr style={{ borderColor: "#707070" }} /> <br />
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         PROTOTYPING
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -138,18 +138,18 @@ export default () => {
                         Hence, I’ve added an icon for the same in the message-input-bar. <b>This ensures
                         easy access.</b>
                     </span> <br /><br />
-                    <img src={wa4} style={{ width: "100%", borderRadius: '0.75rem' }} /> <br /><br />
+                    <img src={wa4} style={{ width: "100%", borderRadius: '0.75rem', border: "0.1px solid #f8f8f8" }} /> <br /><br />
                     <span style={{ fontSize: '20px' }}>
                         Additionally, the interface also allows the user to type out a message to accompany
                         the list. This message could be an instruction or whatever it is that the user wishes
                         to convey. It is not mandatory.
                     </span> <br /><br />
-                    <img src={wa5} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <img src={wa5} style={{ width: "100%", borderRadius: '0.75rem', border: "0.1px solid #f8f8f8" }} />
                     <br /><br />
                     <span style={{ fontSize: '20px' }}>
                         This is what it looks like, when the receiver receives the message from the sender.
                     </span> <br /><br />
-                    <img src={wa6} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <img src={wa6} style={{ width: "100%", borderRadius: '0.75rem', border: "0.1px solid #f8f8f8" }} />
                     <br /><br />
                     <span style={{ fontSize: '20px' }}>
                         Next, I'd like to take you through the <b>"interactive"</b> part of the feature.
@@ -160,15 +160,15 @@ export default () => {
                         to them that the receiver has already procured and added the item to their
                         cart. <br /><br />
                     </span>
-                    <img src={wa7} style={{ width: "100%", borderRadius: '0.75rem' }} /> <br /><br />
+                    <img src={wa7} style={{ width: "100%", borderRadius: '0.75rem', border: "0.1px solid #f8f8f8" }} /> <br /><br />
                     <span style={{ fontSize: '30px', fontWeight: 'bold' }}>
                         Additionally, if the sender had accidentally added an item to the list, they
                         can strike it off from their end and the same would reflect on the receiver's side
                         to let them know that they no longer have to procure that item. <br /><br />
                     </span>
-                    <img src={wa8} style={{ width: "100%", borderRadius: '0.75rem' }} /> <br /><br />
-                    <hr /> <br />
-                    <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                    <img src={wa8} style={{ width: "100%", borderRadius: '0.75rem', border: "0.1px solid #f8f8f8" }} /> <br /><br />
+                    <hr style={{ borderColor: "#707070" }} /> <br />
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>
                         IMPACT
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
@@ -184,11 +184,11 @@ export default () => {
                             to simplify the ordering process from their business/shop.
                         </li>
                     </span>
-                    <br /><br /><br /><hr /><br />
-                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", bottom: "0", width: "100%" }}>
+                    <br /><br /><br /><hr style={{ borderColor: "#707070" }} /><br />
+                    <div style={{ backgroundColor: "#121212", color: "#1976D2", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
-              <span style={{ fontSize: '22px' }}><b>back</b></span>
+                            <span style={{ fontSize: '22px' }}><b>back</b></span>
                         </Link>
                     </div>
                 </ContentWithPaddingXl>

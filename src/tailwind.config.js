@@ -16,6 +16,16 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
+      new: {
+        BG: '#121212',
+        PrimHeading: '#F8F8F8',
+        PrimBody: '#B9B8B8',
+        CardBG: '#1D1D1D',
+        CardBorder: '#F8F8F8',
+        Button: '#1976D2',
+        Divider: '#707070',
+      },
+
       primary: {
         100: '#b3e5ff',
         200: '#80d4ff',
@@ -262,7 +272,7 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
-      display: ['Inter', 'system-ui'],
+      display: ['Source Sans Pro', 'system-ui'],
       sans: [
         'system-ui',
         '-apple-system',

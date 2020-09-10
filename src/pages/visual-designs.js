@@ -15,16 +15,16 @@ export default () => {
     return (
         <AnimationRevealPage>
             <Container>
-                <ContentWithPaddingXl>
-                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
+                <ContentWithPaddingXl style={{ color: "#B9B8B8" }}>
+                    <div style={{ backgroundColor: "#121212", color: "#1976D2", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
                             <span style={{ fontSize: '22px' }}><b>back</b></span>
                         </Link>
                     </div>
                     <br /><br />
-                    <span style={{ fontSize: '35px', fontWeight: 'bold' }}>Visual Design Pieces</span>
-                    <br /><span style={{ fontSize: '20px', fontWeight: 'lighter', }}>Graphic Design • Illustrations</span>
+                    <span style={{ fontSize: '40px', fontWeight: "700", color: "#F8F8F8" }}>Visual Design Pieces</span>
+                    <br /><span style={{ fontSize: '20px', fontWeight: '350', }}>Graphic Design • Illustrations</span>
                     <br /> <br />
                     <img src={VD1} style={{ width: "100%", borderRadius: '0.75rem' }} /> <br /><br />
                     <img src={VD2} style={{ width: "100%", borderRadius: '0.75rem', border: '1px solid' }} /> <br /><br />
@@ -33,11 +33,11 @@ export default () => {
                     <img src={VD5} style={{ width: "100%", borderRadius: '0.75rem', border: '1px solid' }} /> <br /><br />
                     <img src={VD6} style={{ width: "100%", borderRadius: '0.75rem', border: '1px solid' }} /> <br /><br />
                     <img src={VD7} style={{ width: "100%", borderRadius: '0.75rem', border: '1px solid' }} />
-                    <br /><br /><br /><hr /><br />
-                    <div style={{ backgroundColor: "white", padding: "10px 10px 10px 0", bottom: "0", width: "100%" }}>
+                    <br /><br /><br /><hr style={{ borderColor: "#707070" }} /><br />
+                    <div style={{ backgroundColor: "#121212", color: "#1976D2", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">
                             <FontAwesomeIcon icon={["fas", "arrow-left"]} size="lg" /> &nbsp;
-              <span style={{ fontSize: '22px' }}><b>back</b></span>
+                            <span style={{ fontSize: '22px' }}><b>back</b></span>
                         </Link>
                     </div>
                 </ContentWithPaddingXl>
