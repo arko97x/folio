@@ -143,7 +143,7 @@ export default () => {
                     <span style={{ fontSize: '20px' }}>
                         The following are some of the salient features of the redesign:
                         <li>
-                            All information is more structured and is presented in clearer way.
+                            All information is more structured and is presented in a clearer way.
                         </li>
                         <li>
                             Enhanced visibility of content.

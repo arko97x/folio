@@ -52,7 +52,7 @@ export default () => {
           <span style={{ fontSize: '14px', fontWeight: '350', color: "#63a3ff" }}>Full-time, July '19 - June '20</span><br />
           <span style={{ fontSize: '20px', fontWeight: '350' }}>Squadcast India, Software Engineer</span><br /><br />
 
-          <span style={{ fontSize: '14px', fontWeight: '350', color: "#63a3ff" }}>Intern, Feb '19 - March '10</span><br />
+          <span style={{ fontSize: '14px', fontWeight: '350', color: "#63a3ff" }}>Intern, Feb '19 - March '19</span><br />
           <span style={{ fontSize: '20px', fontWeight: '350' }}>Double Slit Media Tech, Designer</span><br /><br />
 
           <span style={{ fontSize: '14px', fontWeight: '350', color: "#63a3ff" }}>Intern, Jan '19 - March '19</span><br />
