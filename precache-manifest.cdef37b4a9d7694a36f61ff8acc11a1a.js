@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "993d8e4d6673c5365ab0dd7b12fbffd0",
+    "revision": "b0e62f0d12124158c9bbfa0622adc967",
     "url": "/folio/index.html"
   },
   {
-    "revision": "f0fd1a9d22528d83c39d",
+    "revision": "970c5a36490d8bb747d4",
     "url": "/folio/static/css/2.3a395901.chunk.css"
   },
   {
-    "revision": "d58b436ad91f349985b2",
+    "revision": "6b6bcef83b364af47dd2",
     "url": "/folio/static/css/main.00770f9f.chunk.css"
   },
   {
-    "revision": "f0fd1a9d22528d83c39d",
-    "url": "/folio/static/js/2.f752ad74.chunk.js"
+    "revision": "970c5a36490d8bb747d4",
+    "url": "/folio/static/js/2.9faf8327.chunk.js"
   },
   {
     "revision": "ca76b5ac5d1116342b5c1b95ca4e166b",
-    "url": "/folio/static/js/2.f752ad74.chunk.js.LICENSE.txt"
+    "url": "/folio/static/js/2.9faf8327.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d58b436ad91f349985b2",
-    "url": "/folio/static/js/main.4c2c5054.chunk.js"
+    "revision": "6b6bcef83b364af47dd2",
+    "url": "/folio/static/js/main.5dddd38c.chunk.js"
   },
   {
     "revision": "76b2937cbbb5dbc26823",
