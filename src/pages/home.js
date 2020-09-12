@@ -12,6 +12,7 @@ import ThumbnailWhatsAppLists from "images/thumbnail-whatsapp.png";
 import ThumbnailVisualDesigns from "images/thumbnail-visualdesigns.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Posts = tw.div`mt-6 sm:-mr-8 flex flex-wrap`;
 const PostContainer = styled.div`
@@ -106,9 +107,17 @@ export default ({
             {client.slice(0, visible).map((post, index) => (
               <PostContainer key={index} featured={post.featured}>
                 <Link to={post.url}>
-                  <Post className="group" as="a" style={{ border: "0.1px solid #f8f8f8" }}>
-                    <Image imageSrc={post.imageSrc} />
-                    <Info style={{ border: "none" }}>
+                  <Post className="group" as="a" style={{ border: "0.1px solid #f8f8f8", overflow: "hidden" }}>
+                    <motion.div
+                      whileHover={{ scale: 1.09 }}
+                      transition={{ duration: 0.3 }}
+                      whileTap={{
+                        scale: 0.97,
+                      }}
+                    >
+                      <Image imageSrc={post.imageSrc} />
+                    </motion.div>
+                    <Info style={{ border: "none", zIndex: 1 }}>
                       {/* <Category>{post.category}</Category> */}
                       <CreationDate>{post.date}</CreationDate>
                       <Title>{post.title}</Title>
@@ -135,9 +144,17 @@ export default ({
             {personal.slice(0, visible).map((post, index) => (
               <PostContainer key={index} featured={post.featured}>
                 <Link to={post.url}>
-                  <Post className="group" as="a" style={{ border: "0.1px solid #f8f8f8" }}>
-                    <Image imageSrc={post.imageSrc} />
-                    <Info style={{ border: "none" }}>
+                  <Post className="group" as="a" style={{ border: "0.1px solid #f8f8f8", overflow: "hidden" }}>
+                    <motion.div
+                      whileHover={{ scale: 1.09 }}
+                      transition={{ duration: 0.3 }}
+                      whileTap={{
+                        scale: 0.97,
+                      }}
+                    >
+                      <Image imageSrc={post.imageSrc} />
+                    </motion.div>
+                    <Info style={{ border: "none", zIndex: 1 }}>
                       {/* <Category>{post.category}</Category> */}
                       <CreationDate>{post.date}</CreationDate>
                       <Title>{post.title}</Title>
