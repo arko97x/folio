@@ -8,6 +8,8 @@ import chehakchirps from "pages/chehakchirps.js";
 import whatsapp_lists from "pages/whatsapp-lists.js";
 import visual_designs from "pages/visual-designs.js";
 import portfolio_redesign from "pages/portfolio-redesign.js";
+import ingenius from "pages/ingenius.js";
+import tedx from "pages/tedx.js"
 
 export const i = {
   about: {
@@ -21,6 +23,12 @@ export const i = {
   },
   chehakchirps: {
     component: chehakchirps,
+  },
+  ingenius: {
+    component: ingenius,
+  },
+  tedx: {
+    component: tedx,
   },
   whatsapp_lists: {
     component: whatsapp_lists,

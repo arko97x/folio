@@ -7,6 +7,8 @@ import { css } from "styled-components/macro";
 import MyGIF from "images/GIF1.gif";
 import ThumbnailInFlo from "images/thumbnail-inflo.png";
 import ThumbnailChehakChirps from "images/thumbnail-chehakchirps.png";
+import ThumbnailinGenius from "images/thumbnail-inGenius.png";
+import ThumbnailTEDx from "images/thumbnail-tedx.png";
 import ThumbnailPortfolio from "images/thumbnail-portfolio.png";
 import ThumbnailWhatsAppLists from "images/thumbnail-whatsapp.png";
 import ThumbnailVisualDesigns from "images/thumbnail-visualdesigns.png";
@@ -35,7 +37,7 @@ const PostContainer = styled.div`
       }
     `}
 `;
-const Post = tw.div`cursor-pointer flex flex-col bg-gray-100 rounded-lg`;
+const Post = tw.div`cursor-pointer flex flex-col rounded-lg`;
 const Image = styled.div`
   ${props => css`background-image: url("${props.imageSrc}");`}
   ${tw`h-64 w-full bg-cover bg-center rounded-t-lg`}
@@ -49,7 +51,9 @@ const Description = tw.div``;
 export default ({
   client = [
     InFlo(),
-    ChehakChirps()
+    ChehakChirps(),
+    inGenius(),
+    TEDx()
   ],
   personal = [
     PortfolioRedesign(),
@@ -68,33 +72,15 @@ export default ({
             I yearn to be the storm of calmness in an ocean of chaos.
             Until recently, I was a Software Engineer with Squadcast. <br />
           </span><br />
-          <span style={{ fontSize: '25px', fontWeight: "bold" }}>
+          <span style={{ fontSize: '25px', fontWeight: "bold", display: "inline-block" }}>
             <Link to="/about" style={{ color: "#1976D2" }}>
-              More about me&nbsp;
-              <FontAwesomeIcon icon={["fas", "arrow-right"]} size="sm" />
+              More about me
+              →
             </Link>
             <br />
           </span> <br /><br />
           <Image imageSrc={MyGIF} style={{ borderRadius: "7px", height: "450px" }} />
           <span style={{ fontSize: '14px', color: "#B9B8B8" }}>That's my Voxel self, chilling with a cup of coffee<br /></span>
-          {/* <Posts>
-            <PostContainer featured='true'>
-              <Link to="/about">
-                <Post className="group" as="a">
-                  <Image imageSrc={MyGIF} />
-                  <Info>
-                    <Title>More about me</Title>
-                    <Description>
-                      I'm a designer on a mission to elicit joy. The amalgamation of art, design,
-                      poetry & tech excites me. I'm currently engaged in levelling up
-                      my design know-how! <br /> <b><i>I'm also on the lookout for Designer openings, so hit me up!</i></b>
-                      <br /><br />
-                    </Description>
-                  </Info>
-                </Post>
-              </Link>
-            </PostContainer>
-          </Posts> */}
           <br /><br />
           <hr style={{ borderColor: "#707070" }} />
           <br />
@@ -116,6 +102,7 @@ export default ({
                       }}
                     >
                       <Image imageSrc={post.imageSrc} />
+                      {/* <div style={{ padding: "50px", textAlign: "center", fontSize: "25px", fontWeight: "lighter" }}>( ͡• ͜ʖ ͡•)</div> */}
                     </motion.div>
                     <Info style={{ border: "none", zIndex: 1 }}>
                       {/* <Category>{post.category}</Category> */}
@@ -222,6 +209,26 @@ const ChehakChirps = () => ({
   description:
     "A logo exploration for a personal blog by Chehak Nayar.",
   url: "/chehakchirps"
+});
+
+const inGenius = () => ({
+  imageSrc: ThumbnailinGenius,
+  category: "Client Project",
+  date: "Graphic Design • Merch",
+  title: "inGenius",
+  description:
+    "",
+  url: "/ingenius"
+});
+
+const TEDx = () => ({
+  imageSrc: ThumbnailTEDx,
+  category: "Client Project",
+  date: "Graphic Design • Merch",
+  title: "TEDxPESITBSC 2018",
+  description:
+    "",
+  url: "/tedx"
 });
 
 const WhatsAppLists = () => ({
