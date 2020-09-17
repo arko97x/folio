@@ -2,9 +2,13 @@ import React from "react";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts";
 import ThumbnailinGenius from "images/thumbnail-inGenius.png";
-import i1 from "images/ingenius1.png";
-import i2 from "images/ingenius2.png";
-import dv5 from "images/dv5.png";
+import i1 from "images/i1.png";
+import i2 from "images/i2.png";
+import i3 from "images/i3.png";
+import i4 from "images/i4.png";
+import i5 from "images/i5.png";
+import i6 from "images/i6.png";
+import dv4 from "images/dv4.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
 
@@ -31,15 +35,33 @@ export default () => {
                         These designs were done for an event called inGenius. inGenius is an annual,
                         24-hour hackathon hosted by PESIT, BSC (my alma mater). I was the in charge of the
                         Design team (2-3 other people, really :P). We were responsible for designing posters
-                        and merch (t-shirts, notepad covers, laptop stickers, bookmarks, etc.).
+                        and merch (t-shirts, notepad covers, laptop stickers, bookmarks, etc.). This isn't
+                        really a 'client project'. It, however, is real work that was done for real
+                        people and was used as part of a real event. :P
                     </span>
                     <br /><br />
+                    <hr style={{ borderColor: "#707070" }} />
+                    <br />
+                    <img src={dv4} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <span style={{ fontSize: '14px' }}>the launch poster</span>
+                    <br /> <br />
                     <img src={i1} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <span style={{ fontSize: '14px' }}>notepad front cover</span>
                     <br /><br />
                     <img src={i2} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <span style={{ fontSize: '14px' }}>ID cards</span>
                     <br /><br />
-                    <img src={dv5} style={{ width: "100%", borderRadius: '0.75rem' }} />
-                    {/* <span style={{ fontSize: '14px' }}>a pattern that can find use in branding campaigns</span> */}
+                    <img src={i3} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <span style={{ fontSize: '14px' }}>certificates</span>
+                    <br /> <br />
+                    <img src={i4} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <span style={{ fontSize: '14px' }}>promo poster, before ticket sales started</span>
+                    <br /> <br />
+                    <img src={i5} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <span style={{ fontSize: '14px' }}>the t-shirt (a dabbing pointer, cuz who likes a dangling pointer!?)</span>
+                    <br /> <br />
+                    <img src={i6} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <span style={{ fontSize: '14px' }}>the event brochure</span>
                     <br /><br /><br /><hr style={{ borderColor: "#707070" }} /><br />
                     <div style={{ backgroundColor: "#121212", color: "#1976D2", padding: "10px 10px 10px 0", position: "-webkit-sticky", position: "sticky", top: "0", width: "100%" }}>
                         <Link to="/home">

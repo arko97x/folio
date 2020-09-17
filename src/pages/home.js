@@ -8,7 +8,6 @@ import MyGIF from "images/GIF1.gif";
 import ThumbnailInFlo from "images/thumbnail-inflo.png";
 import ThumbnailChehakChirps from "images/thumbnail-chehakchirps.png";
 import ThumbnailinGenius from "images/thumbnail-inGenius.png";
-import ThumbnailTEDx from "images/thumbnail-tedx.png";
 import ThumbnailPortfolio from "images/thumbnail-portfolio.png";
 import ThumbnailWhatsAppLists from "images/thumbnail-whatsapp.png";
 import ThumbnailVisualDesigns from "images/thumbnail-visualdesigns.png";
@@ -52,8 +51,7 @@ export default ({
   client = [
     InFlo(),
     ChehakChirps(),
-    inGenius(),
-    TEDx()
+    inGenius()
   ],
   personal = [
     PortfolioRedesign(),
@@ -219,16 +217,6 @@ const inGenius = () => ({
   description:
     "",
   url: "/ingenius"
-});
-
-const TEDx = () => ({
-  imageSrc: ThumbnailTEDx,
-  category: "Client Project",
-  date: "Graphic Design • Merch",
-  title: "TEDxPESITBSC 2018",
-  description:
-    "",
-  url: "/tedx"
 });
 
 const WhatsAppLists = () => ({
