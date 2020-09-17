@@ -66,7 +66,8 @@ export default ({
         <ContentWithPaddingXl style={{ color: "#F8F8F8" }}>
           <span style={{ fontSize: '40px', fontWeight: "900" }}>Hi, Arko here.</span> <br />
           <span style={{ fontSize: '25px', fontWeight: "350", color: "#B9B8B8" }}>
-            Welcome to my online residence! 👋 <br />I’m a designer based out of Bangalore, India and
+            Welcome to my online residence! 👋 <br />I’m a designer based out of Bangalore, India.
+            I'm on a mission to elicit joy and
             I yearn to be the storm of calmness in an ocean of chaos.
             Until recently, I was a Software Engineer with Squadcast. <br />
           </span><br />

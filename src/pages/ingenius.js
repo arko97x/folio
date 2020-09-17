@@ -41,7 +41,7 @@ export default () => {
                     </span>
                     <br /><br />
                     <hr style={{ borderColor: "#707070" }} />
-                    <br />
+                    <br /><br />
                     <img src={dv4} style={{ width: "100%", borderRadius: '0.75rem' }} />
                     <span style={{ fontSize: '14px' }}>the launch poster</span>
                     <br /> <br />
