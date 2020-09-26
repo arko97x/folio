@@ -33,7 +33,7 @@ export default () => {
                     </span> <br /> <br />
                     <span style={{ fontSize: '20px' }}>
                         These designs were done for an event called inGenius. inGenius is an annual,
-                        24-hour hackathon hosted by PESIT, BSC (my alma mater). I was the in charge of the
+                        24-hour hackathon hosted by PESIT, BSC (my alma mater). I was in charge of the
                         Design team (2-3 other people, really :P). We were responsible for designing posters
                         and merch (t-shirts, notepad covers, laptop stickers, bookmarks, etc.). This isn't
                         really a 'client project'. It, however, is real work that was done for real
