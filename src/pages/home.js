@@ -8,9 +8,9 @@ import MyGIF from "images/GIF1.gif";
 import ThumbnailInFlo from "images/thumbnail-inflo.png";
 import ThumbnailChehakChirps from "images/thumbnail-chehakchirps.png";
 import ThumbnailinGenius from "images/thumbnail-inGenius.png";
-import ThumbnailPortfolio from "images/thumbnail-portfolio.png";
+// import ThumbnailPortfolio from "images/thumbnail-portfolio.png";
 import ThumbnailWhatsAppLists from "images/thumbnail-whatsapp.png";
-import ThumbnailVisualDesigns from "images/thumbnail-visualdesigns.png";
+import ThumbnailVisualDesigns from "images/dv8.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -54,7 +54,7 @@ export default ({
     inGenius()
   ],
   personal = [
-    PortfolioRedesign(),
+    // PortfolioRedesign(),
     WhatsAppLists(),
     VisualDesign()
   ]
@@ -180,15 +180,15 @@ export default ({
   );
 };
 
-const PortfolioRedesign = () => ({
-  imageSrc: ThumbnailPortfolio,
-  category: "Personal Project",
-  date: "Responsive Web Design",
-  title: "Portfolio Redesign",
-  description:
-    "Redesigning, restructuring, & rebuilding my personal portfolio website.",
-  url: "/portfolio_redesign"
-});
+// const PortfolioRedesign = () => ({
+//   imageSrc: ThumbnailPortfolio,
+//   category: "Personal Project",
+//   date: "Responsive Web Design",
+//   title: "Portfolio Redesign",
+//   description:
+//     "Redesigning, restructuring, & rebuilding my personal portfolio website.",
+//   url: "/portfolio_redesign"
+// });
 
 const InFlo = () => ({
   imageSrc: ThumbnailInFlo,
