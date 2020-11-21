@@ -98,7 +98,7 @@ const poem3 = () => ({
 });
 
 const poem4 = () => ({
-    description: "\"In your poetry, I find emotion..\nemotion so unfathomably deep,\nthat it could make an entire ocean sob and weep.\"\n\nsaid the ocean to the might sky.\n\n\n\n\n",
+    description: "\"In your poetry, I find emotion..\nemotion so unfathomably deep,\nthat it could make an entire ocean sob and weep.\"\n\nsaid the ocean to the mighty sky.\n\n\n\n\n",
 });
 
 const poem5 = () => ({
