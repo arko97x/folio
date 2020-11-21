@@ -8,7 +8,7 @@ import i3 from "images/i3.png";
 import i4 from "images/i4.png";
 import i5 from "images/i5.png";
 import i6 from "images/i6.png";
-import dv4 from "images/dv4.png";
+import vd4 from "images/vd4.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
 
@@ -42,7 +42,7 @@ export default () => {
                     <br /><br />
                     <hr style={{ borderColor: "#707070" }} />
                     <br /><br />
-                    <img src={dv4} style={{ width: "100%", borderRadius: '0.75rem' }} />
+                    <img src={vd4} style={{ width: "100%", borderRadius: '0.75rem' }} />
                     <span style={{ fontSize: '14px' }}>the launch poster</span>
                     <br /> <br />
                     <img src={i1} style={{ width: "100%", borderRadius: '0.75rem' }} />

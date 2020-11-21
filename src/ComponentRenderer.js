@@ -9,6 +9,7 @@ import whatsapp_lists from "pages/whatsapp-lists.js";
 import visual_designs from "pages/visual-designs.js";
 import portfolio_redesign from "pages/portfolio-redesign.js";
 import ingenius from "pages/ingenius.js";
+import poetry from "pages/poetry.js";
 
 export const i = {
   about: {
@@ -34,6 +35,9 @@ export const i = {
   },
   portfolio_redesign: {
     component: portfolio_redesign,
+  },
+  poetry: {
+    component: poetry,
   }
 }
 

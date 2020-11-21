@@ -10,7 +10,7 @@ import ThumbnailChehakChirps from "images/thumbnail-chehakchirps.png";
 import ThumbnailinGenius from "images/thumbnail-inGenius.png";
 // import ThumbnailPortfolio from "images/thumbnail-portfolio.png";
 import ThumbnailWhatsAppLists from "images/thumbnail-whatsapp.png";
-import ThumbnailVisualDesigns from "images/dv8.png";
+import ThumbnailVisualDesigns from "images/vd8.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -151,6 +151,24 @@ export default ({
               </PostContainer>
             ))}
           </Posts>
+          <br /><br />
+          <hr style={{ borderColor: "#707070" }} />
+          <br />
+          <span style={{ fontSize: '40px', fontWeight: "700" }}>✍️ Miscellaneous</span>
+          <br /><br />
+          <span style={{ fontSize: '25px', fontWeight: "350", color: "#B9B8B8" }}>
+            Tagore and I could've been pen pals. I was only late by a century and a half. But that doesn't stop me from writing! 😛
+            &nbsp; I've also tried my hand at playing the guitar. I'm pretty sure the guitar went<br />
+            <b>"Babe, I'm gonna leave you"</b> right after! 😆
+          </span>
+          <br /> <br />
+          <span style={{ fontSize: '25px', fontWeight: "bold", display: "inline-block" }}>
+            <Link to="/poetry" style={{ color: "#1976D2" }}>
+              My poetry
+              →
+            </Link>
+            <br />
+          </span>
           <br /><br />
           <hr style={{ borderColor: "#707070" }} />
           <br />

@@ -1,14 +1,18 @@
 import React from "react";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import { Container, ContentWithPaddingXl } from "components/misc/Layouts";
-import VD1 from "images/dv1.png";
-import VD2 from "images/dv2.png";
-import VD3 from "images/dv3.png";
-import VD4 from "images/dv4.png";
-import VD5 from "images/dv5.png";
-import VD6 from "images/dv6.png";
-import VD7 from "images/dv7.png";
-import VD8 from "images/dv8.png";
+import VD1 from "images/vd1.png";
+import VD2 from "images/vd2.png";
+import VD3 from "images/vd3.png";
+import VD4 from "images/vd4.png";
+import VD5 from "images/vd5.png";
+import VD6 from "images/vd6.png";
+import VD7 from "images/vd7.png";
+import VD8 from "images/vd8.png";
+import VD9 from "images/vd9.png";
+import VD10 from "images/vd10.png";
+import VD11 from "images/vd11.png";
+import VD12 from "images/vd12.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
 
@@ -28,7 +32,11 @@ export default () => {
                     <br /><span style={{ fontSize: '20px', fontWeight: '350', }}>Graphic Design • Illustrations</span>
                     <br /> <br />
                     <img src={VD8} style={{ width: "100%", borderRadius: '0.75rem' }} /> <br /><br />
+                    <img src={VD9} style={{ width: "100%", borderRadius: '0.75rem' }} /> <br /><br />
+                    <img src={VD10} style={{ width: "100%", borderRadius: '0.75rem' }} /> <br /><br />
                     <img src={VD1} style={{ width: "100%", borderRadius: '0.75rem' }} /> <br /><br />
+                    <img src={VD11} style={{ width: "100%", borderRadius: '0.75rem' }} /> <br /><br />
+                    <img src={VD12} style={{ width: "100%", borderRadius: '0.75rem', border: '1px solid' }} /> <br /><br />
                     <img src={VD2} style={{ width: "100%", borderRadius: '0.75rem', border: '1px solid' }} /> <br /><br />
                     <img src={VD3} style={{ width: "100%", borderRadius: '0.75rem' }} /> <br /><br />
                     <img src={VD4} style={{ width: "100%", borderRadius: '0.75rem' }} /> <br /><br />
