@@ -69,7 +69,7 @@ export default ({
             Welcome to my online residence! 👋 <br />I’m a designer based out of Bangalore, India.
             I'm on a mission to elicit joy and
             I yearn to be the storm of calmness in an ocean of chaos.
-            Until recently, I was a Software Engineer with Squadcast. <br />
+            Currently doing all things design at &nbsp;<a href="https://astutegiraffe.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", fontWeight: "bold" }}>Astute Giraffe</a>. <br />
           </span><br />
           <span style={{ fontSize: '25px', fontWeight: "bold", display: "inline-block" }}>
             <Link to="/about" style={{ color: "#1976D2" }}>
@@ -180,7 +180,7 @@ export default ({
             on the following platforms from time to time.
           </span>
           <br /><br />
-          <a href="https://twitter.com/ArkoprabhoB" target="_blank" rel="noopener noreferrer" style={{ color: "#1976D2" }}>
+          <a href="https://twitter.com/ark_ohh" target="_blank" rel="noopener noreferrer" style={{ color: "#1976D2" }}>
             <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
           </a> &nbsp; &nbsp;
           <a href="https://www.linkedin.com/in/arkoprabho-bhattacharjee/" target="_blank" rel="noopener noreferrer" style={{ color: "#1976D2" }}>
@@ -189,9 +189,6 @@ export default ({
           <a href="https://dribbble.com/arko97x" target="_blank" rel="noopener noreferrer" style={{ color: "#1976D2" }}>
             <FontAwesomeIcon icon={["fab", "dribbble"]} size="lg" />
           </a> &nbsp; &nbsp;
-          <a href="https://www.instagram.com/thepngguyy/" target="_blank" rel="noopener noreferrer" style={{ color: "#1976D2" }}>
-            <FontAwesomeIcon icon={["fab", "instagram"]} size="lg" />
-          </a>
         </ContentWithPaddingXl>
       </Container>
     </AnimationRevealPage>
