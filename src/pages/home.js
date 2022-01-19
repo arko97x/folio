@@ -68,8 +68,7 @@ export default ({
           <span style={{ fontSize: '25px', fontWeight: "350", color: "#B9B8B8" }}>
             Welcome to my online residence! 👋 <br />I’m a designer based out of Bangalore, India.
             I'm on a mission to elicit joy and
-            I yearn to be the storm of calmness in an ocean of chaos.
-            Currently doing all things design at &nbsp;<a href="https://astutegiraffe.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline", fontWeight: "bold" }}>Astute Giraffe</a>. <br />
+            I yearn to be the storm of calmness in an ocean of chaos. Currently studying <b>Human-Centered Design</b> at <b>Srishti Manipal Institute of Art, Design and Technology</b>.
           </span><br />
           <span style={{ fontSize: '25px', fontWeight: "bold", display: "inline-block" }}>
             <Link to="/about" style={{ color: "#1976D2" }}>

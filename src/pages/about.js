@@ -40,14 +40,17 @@ export default () => {
           <hr style={{ borderColor: "#707070" }} />
           <br /><br />
           {/* <img src={OpenToWork} style={{ width: "100%", borderRadius: '0.75rem', border: "0.5px solid #F8F8F8" }} /> <br /> */}
-          <span style={{ fontSize: '20px' }}><a href="https://www.dropbox.com/s/d5yzshdbq8r7kut/July-2021-arko-resume.pdf?dl=0" style={{ textDecoration: "underline", fontWeight: "bold" }} target="_blank" rel="noopener noreferrer">Résumé</a></span>
+          <span style={{ fontSize: '20px' }}><a href="https://www.dropbox.com/s/k6ugw39qh3pvotl/Jan-2022-arko-resume.pdf?dl=0" style={{ textDecoration: "underline", fontWeight: "bold" }} target="_blank" rel="noopener noreferrer">Résumé</a></span>
           &nbsp;&nbsp;|&nbsp;&nbsp;
           <span style={{ fontSize: '20px' }}><a href="mailto:bhattacharjee.arkoprabho@gmail.com" style={{ textDecoration: "underline", fontWeight: "bold" }}>Email</a></span>
           <br /><br /><br /><hr style={{ borderColor: "#707070" }} /><br />
 
           <span style={{ fontSize: '30px', fontWeight: "700", color: "#F8F8F8" }}>Currently</span><br />
-          <span style={{ fontSize: '14px', fontWeight: '350', color: "#63a3ff" }}>Consultant, March '21 - Present</span><br />
-          <span style={{ fontSize: '20px', fontWeight: '350' }}>Astute Giraffe Pvt. Ltd, Designer</span><br /><br />
+          <span style={{ fontSize: '14px', fontWeight: '350', color: "#63a3ff" }}>Freelancer, March '21 - Present</span><br />
+          <span style={{ fontSize: '20px', fontWeight: '350' }}>Astute Giraffe Pvt. Ltd., Designer</span><br /><br />
+
+          <span style={{ fontSize: '14px', fontWeight: '350', color: "#63a3ff" }}>Student, 2021 - Present</span><br />
+          <span style={{ fontSize: '20px', fontWeight: '350' }}>Srishti Manipal Institute of Art, Design and Technology, Human-Centered Design</span><br /><br />
 
           <span style={{ fontSize: '30px', fontWeight: "700", color: "#F8F8F8" }}>Previously</span><br />
           <span style={{ fontSize: '14px', fontWeight: '350', color: "#63a3ff" }}>Full-time, July '19 - June '20</span><br />
